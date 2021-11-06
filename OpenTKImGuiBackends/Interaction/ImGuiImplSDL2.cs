@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using ImGuiNET;
-using SDL2;
 using static SDL2.SDL;
 using static SDL2.SDL.SDL_Scancode;
 using System.Numerics;
@@ -48,7 +43,6 @@ namespace OpenTKImGuiBackends.Interaction
 {
     public static class ImGuiImplSDL2
     {
-
         private unsafe delegate void SetClipboardFuncDelegate(void* a, char* b);
         private unsafe delegate char* GetClipboardFuncDelegate(void* a);
 
@@ -74,7 +68,6 @@ namespace OpenTKImGuiBackends.Interaction
         // We don't need to use ImGui backend userdata
         // because this is C# and we have the power of statics.
         // Plus SDL2 isn't happy doing multiple viewports so I don't care
-
         private static bool WasMousePressedLeft;
         private static bool WasMousePressedRight;
         private static bool WasMousePressedMiddle;
