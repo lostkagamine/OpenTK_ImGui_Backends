@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTKImGuiBackends", "OpenTKImGuiBackends\OpenTKImGuiBackends.csproj", "{E62276B5-9CBE-4132-B9CC-24AF69429694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGLApp", "OpenGLApp\OpenGLApp.csproj", "{5E7DAA72-3CBC-4506-ABF1-0BA1B363044E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E62276B5-9CBE-4132-B9CC-24AF69429694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62276B5-9CBE-4132-B9CC-24AF69429694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62276B5-9CBE-4132-B9CC-24AF69429694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62276B5-9CBE-4132-B9CC-24AF69429694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7DAA72-3CBC-4506-ABF1-0BA1B363044E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7DAA72-3CBC-4506-ABF1-0BA1B363044E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7DAA72-3CBC-4506-ABF1-0BA1B363044E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7DAA72-3CBC-4506-ABF1-0BA1B363044E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B2E3DD-42A5-4F56-8453-1BE5956211BA}
+	EndGlobalSection
+EndGlobal
