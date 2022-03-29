@@ -103,7 +103,7 @@ namespace OpenTKImGuiBackends.Interaction
             io.KeyMap[(int)ImGuiKey.Space] = (int)SDL_SCANCODE_SPACE;
             io.KeyMap[(int)ImGuiKey.Enter] = (int)SDL_SCANCODE_RETURN;
             io.KeyMap[(int)ImGuiKey.Escape] = (int)SDL_SCANCODE_ESCAPE;
-            io.KeyMap[(int)ImGuiKey.KeyPadEnter] = (int)SDL_SCANCODE_KP_ENTER;
+            io.KeyMap[(int)ImGuiKey.KeypadEnter] = (int)SDL_SCANCODE_KP_ENTER;
             io.KeyMap[(int)ImGuiKey.A] = (int)SDL_SCANCODE_A;
             io.KeyMap[(int)ImGuiKey.C] = (int)SDL_SCANCODE_C;
             io.KeyMap[(int)ImGuiKey.V] = (int)SDL_SCANCODE_V;
